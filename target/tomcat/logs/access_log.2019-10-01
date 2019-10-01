@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:42:45 +0800] "GET /dxctest HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:42:45 +0800] "GET /dxctest-29-sept HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:42:46 +0800] "GET /dxctest-29-sept/ HTTP/1.1" 200 188 http-bio-8080-exec-4 1428
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:45:24 +0800] "GET /dxctest-29-sept/listEvents.action HTTP/1.1" 200 1925 http-bio-8080-exec-6 761
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:46:42 +0800] "GET /dxctest-29-sept/add_event.jsp HTTP/1.1" 200 870 http-bio-8080-exec-9 298
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:48:13 +0800] "POST /dxctest-29-sept/addEvent HTTP/1.1" 302 - http-bio-8080-exec-1 120
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:48:14 +0800] "GET /dxctest-29-sept/listEvents.action HTTP/1.1" 200 2108 http-bio-8080-exec-1 59
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:53:50 +0800] "GET /dxctest-29-sept/deleteEvent.action?id=2 HTTP/1.1" 302 - http-bio-8080-exec-10 83
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:10:53:50 +0800] "GET /dxctest-29-sept/listEvents.action HTTP/1.1" 200 1922 http-bio-8080-exec-10 38
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:11:32:30 +0800] "GET /dxctest-29-sept HTTP/1.1" 302 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [01/Oct/2019:11:32:30 +0800] "GET /dxctest-29-sept/ HTTP/1.1" 200 188 http-bio-8080-exec-4 36

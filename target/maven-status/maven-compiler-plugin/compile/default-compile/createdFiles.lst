@@ -1,0 +1,7 @@
+com/dxctest/config/AppConfig.class
+com/dxctest/config/WebAppInitializer.class
+com/dxctest/action/ListEventsAction.class
+com/dxctest/entity/Event.class
+com/dxctest/action/DeleteEventAction.class
+com/dxctest/action/AddEventAction.class
+com/dxctest/dao/EventDao.class

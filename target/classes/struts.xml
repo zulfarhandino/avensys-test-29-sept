@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+	<package name="eventApp" extends="struts-default" namespace="/">
+		<action name="listEvents" class="com.dxctest.action.ListEventsAction" method="execute">
+			<result name="success">/list_events.jsp</result>
+		</action>
+		<action name="deleteEvent" class="com.dxctest.action.DeleteEventAction" method="execute">
+			<result type="redirectAction">listEvents</result>
+		</action>
+		<action name="addEvent" class="com.dxctest.action.AddEventAction" method="execute">
+			<result name="success" type="redirectAction">listEvents</result>
+			<result name="input">/add_event.jsp</result>
+		</action>
+	</package>
+</struts>
